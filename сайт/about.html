@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+<header>
+    Мой сайт
+</header>
+<main>
+    <nav>
+        <a href="about.html">О сайте</a>
+    </nav>
+    
+    <input type="int" id="name" placeholder="Введите ваше имя:">
+    <button onclick="app()">Ввод</button>
+    <div id="result"></div>
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Чат</h1>
+      
+          <label for="msg"><b>Сообщение</b></label>
+          <textarea placeholder="Введите сообщение.." name="msg" required></textarea>
+          <button type="submit" class="btn">Отправить</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+        </form>
+      </div>
+</main>
+<footer>
+    (c)2023
+</footer>
+
+
+</body>
+
+</html>
+
